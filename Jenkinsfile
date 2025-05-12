@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        DOCKER_IMAGE = 'sathwikpadmanabha/devopsfinal'
+        DOCKER_IMAGE = 'shetty19/myapp'
         DOCKER_TAG = "${BUILD_NUMBER}"
     }
 
